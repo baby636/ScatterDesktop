@@ -13,7 +13,9 @@
     "postinstall": "electron-rebuild",
     "release": "node scripts/release",
     "testfile": "cross-env TESTING=1 electron-mocha --exit --timeout 1000000",
-    "test": "npm run testfile \"test/**/*.spec.js\" --timeout 1000000"
+    "test": "npm run testfile \"test/**/*.spec.js\" --timeout 1000000",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@ledgerhq/hw-app-eth": "^4.68.4",
@@ -41,7 +43,8 @@
     "node-notifier": "^5.3.0",
     "rxjs": "^6.5.4",
     "scrypt-async": "^2.0.1",
-    "ws": "^7.0.0"
+    "ws": "^7.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-polyfill": "^6.26.0",
@@ -175,5 +178,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GetScatter/ScatterDesktop.git"
-  }
+  },
+  "snyk": true
 }
