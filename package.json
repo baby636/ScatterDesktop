@@ -30,7 +30,7 @@
     "bip39": "2.6.0",
     "create-hash": "^1.2.0",
     "dotenv": "^8.1.0",
-    "electron-store": "^3.2.0",
+    "electron-store": "^8.0.0",
     "elliptic": "^6.5.1",
     "embedder": "git+https://git@github.com/GetScatter/Scatter-Embedder.git#master",
     "eosjs": "^20.0.0",
