@@ -31,7 +31,7 @@
     "create-hash": "^1.2.0",
     "dotenv": "^8.1.0",
     "electron-store": "^3.2.0",
-    "elliptic": "^6.5.1",
+    "elliptic": "^6.5.6",
     "embedder": "git+https://git@github.com/GetScatter/Scatter-Embedder.git#master",
     "eosjs": "^20.0.0",
     "eosjs-ecc": "^4.0.7",
@@ -54,7 +54,7 @@
     "electron-rebuild": "^1.8.5",
     "mocha": "^6.2.0",
     "secp256k1": "^3.6.2",
-    "web3": "^1.0.0-beta.55"
+    "web3": "^4.0.1"
   },
   "resolutions": {
     "**/lodash": "^4.13.1",
