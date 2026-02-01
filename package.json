@@ -49,12 +49,12 @@
     "cross-env": "^6.0.0",
     "electron": "^5.0.6",
     "electron-builder": "^21.2.0",
-    "electron-mocha": "^8.1.2",
+    "electron-mocha": "^12.0.0",
     "electron-notarize": "^0.2.0",
     "electron-rebuild": "^1.8.5",
-    "mocha": "^6.2.0",
+    "mocha": "^10.6.0",
     "secp256k1": "^3.6.2",
-    "web3": "^1.0.0-beta.55"
+    "web3": "^4.0.1"
   },
   "resolutions": {
     "**/lodash": "^4.13.1",
